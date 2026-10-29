@@ -5,7 +5,7 @@ Tools that make content safe for AI agents. They run on [Apify](https://apify.co
 | Tool | What it does | Use it |
 |---|---|---|
 | MCP Tool Poisoning Scanner | Audits MCP servers for tool poisoning, hidden instructions and silent tool changes | [Apify](https://apify.com/bigochelo/mcp-poisoning-scanner) |
-| Safe Web Reader | URL to clean Markdown with prompt-injection text removed | [Apify](https://apify.com/bigochelo/safe-web-reader) |
+| Safe Web Reader | Web pages, JavaScript sites and PDFs to clean Markdown, prompt-injection text removed | [Apify](https://apify.com/bigochelo/safe-web-reader) |
 | PDF to Markdown | PDFs to Markdown for RAG, with hidden-text detection | [Apify](https://apify.com/bigochelo/pdf-to-markdown-text-for-ai-rag) |
 | OCR to Markdown | Scanned PDFs and images to Markdown, 26 languages | [Apify](https://apify.com/bigochelo/ocr-to-markdown) |
 | Google Trends Scraper | Google Trends data without an API key | [Apify](https://apify.com/bigochelo/google-trends-scraper) |

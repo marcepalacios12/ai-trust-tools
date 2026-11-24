@@ -4,19 +4,19 @@ Tools that make content safe for AI agents, plus a few data and compliance tools
 
 ## For AI agents and RAG
 
-| Tool | What it does | Use it |
-|---|---|---|
-| MCP Tool Poisoning Scanner | Audits MCP servers for tool poisoning, hidden instructions and silent tool changes (rug pulls) | [Apify](https://apify.com/bigochelo/mcp-poisoning-scanner) |
-| Safe Web Reader | Web pages, JavaScript sites and PDFs to clean Markdown, prompt-injection text removed and reported | [Apify](https://apify.com/bigochelo/safe-web-reader) |
-| PDF to Markdown | PDFs to Markdown for RAG, with tables, heading-aware chunks and hidden-text detection | [Apify](https://apify.com/bigochelo/pdf-to-markdown-text-for-ai-rag) |
-| OCR to Markdown | Scanned PDFs and images to Markdown, 26 languages | [Apify](https://apify.com/bigochelo/ocr-to-markdown) |
+| Tool | What it does | Use it | MCP (Glama) |
+|---|---|---|---|
+| MCP Tool Poisoning Scanner | Audits MCP servers for tool poisoning, hidden instructions and silent tool changes (rug pulls) | [Apify](https://apify.com/bigochelo/mcp-poisoning-scanner) | [![MCP Tool Poisoning Scanner MCP connector](https://glama.ai/mcp/connectors/io.github.marcepalacios12/mcp-poisoning-scanner/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.marcepalacios12/mcp-poisoning-scanner) |
+| Safe Web Reader | Web pages, JavaScript sites and PDFs to clean Markdown, prompt-injection text removed and reported | [Apify](https://apify.com/bigochelo/safe-web-reader) | [![Safe Web Reader for AI MCP connector](https://glama.ai/mcp/connectors/io.github.marcepalacios12/safe-web-reader/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.marcepalacios12/safe-web-reader) |
+| PDF to Markdown | PDFs to Markdown for RAG, with tables, heading-aware chunks and hidden-text detection | [Apify](https://apify.com/bigochelo/pdf-to-markdown-text-for-ai-rag) | - |
+| OCR to Markdown | Scanned PDFs and images to Markdown, 26 languages | [Apify](https://apify.com/bigochelo/ocr-to-markdown) | - |
 
 ## Data and compliance
 
-| Tool | What it does | Use it |
-|---|---|---|
-| Google Trends Scraper | Interest over time, by region and related queries for any keyword, plus **Trending now**: the searches spiking right now in any country | [Apify](https://apify.com/bigochelo/google-trends-scraper) |
-| EAA Spain checker | Checks Spanish online shops in bulk for an accessibility statement (Ley 11/2023) and an AI notice on their chatbot (AI Act art. 50), with a traffic light and an explanation in Spanish | [Apify](https://apify.com/bigochelo/eaa-spain-compliance-checker) |
+| Tool | What it does | Use it | MCP (Glama) |
+|---|---|---|---|
+| Google Trends Scraper | Interest over time, by region and related queries for any keyword, plus **Trending now**: the searches spiking right now in any country | [Apify](https://apify.com/bigochelo/google-trends-scraper) | [![Google Trends Scraper MCP connector](https://glama.ai/mcp/connectors/io.github.marcepalacios12/google-trends-scraper/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.marcepalacios12/google-trends-scraper) |
+| EAA Spain checker | Checks Spanish online shops in bulk for an accessibility statement (Ley 11/2023) and an AI notice on their chatbot (AI Act art. 50), with a traffic light and an explanation in Spanish | [Apify](https://apify.com/bigochelo/eaa-spain-compliance-checker) | - |
 
 ## Use from an MCP client
 
